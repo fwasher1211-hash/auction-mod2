@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionmod",
+  "version": "${version}",
+  "name": "Auction Mod",
+  "description": "Auction blocks with a clean menu (Right Shift). Highest diamond bid wins.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.auction.AuctionMod"],
+    "client": ["com.example.auction.client.AuctionModClient"]
+  },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*" }
+}
